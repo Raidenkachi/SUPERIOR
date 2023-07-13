@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AsakeActivity"
+    android:background="@drawable/back4">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASAKE"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/genje"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="ASAKE-AMAPIANO"
+        android:textColor="@color/white"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="45dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/andan"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="ASAKE-BANDANA"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/squi"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="ASAKE -BASQUIT"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/gani"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="ASAKE-ORGANISE"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/ungba"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="ASAKE- SUNGBA"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>

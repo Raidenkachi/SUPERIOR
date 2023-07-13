@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NyashinskiActivity"
+    android:background="@drawable/back4">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NYASHINSKI "
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/genje"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/inyo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="NYASHINSKI-FINYO"
+        android:textColor="@color/white"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="45dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/oals"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="NYASHINSKI-GOALS"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/ebs"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="NYASHINSKI-KEBZ"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/oper"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="NYASHINSKI-PROPER"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/weet"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="NYASHINSKI-SHORT AND SWEET"
+        android:textColor="@color/white"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

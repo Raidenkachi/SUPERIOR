@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MejjaActivity"
+    android:background="@drawable/back4">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEJJA "
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/genje"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/hia"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="MEJJA-FURAHIA MAISHA"
+        android:textColor="@color/white"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="45dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/lord"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="MEJJA-LANDLORD"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/mood"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="MEJJA-USINIHARIBIE MOOD"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/iko"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="MEJJA-NIKO POA"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/skii"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="MEJJA-SISKII"
+        android:textColor="@color/white"
+        android:fontFamily="@font/laisha"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

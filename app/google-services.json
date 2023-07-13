@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026403577257",
+    "project_id": "superior-aca34",
+    "storage_bucket": "superior-aca34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026403577257:android:be09322cbaa21bd903e8b8",
+        "android_client_info": {
+          "package_name": "com.example.superior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026403577257-u6u4snh86eaft6il9l3op1gt027bp3bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm4mjqxBhcIiynWmBlcaPFVpxxMTwEBkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026403577257-u6u4snh86eaft6il9l3op1gt027bp3bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
